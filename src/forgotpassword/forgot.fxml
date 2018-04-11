@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476.0" prefWidth="589.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="54.0" layoutY="23.0" text="Retrive Forgotten Password....." textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email" layoutX="209.0" layoutY="122.0" promptText="Username/email" style="-fx-background-color: white;" />
+      <Label layoutX="81.0" layoutY="124.0" text="username :" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="171.0" text="DoB :" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="dob" layoutX="209.0" layoutY="169.0" promptText="Date of Birth" style="-fx-background-color: white;" />
+      <JFXButton layoutX="209.0" layoutY="253.0" onAction="#getpass" prefHeight="36.0" prefWidth="139.0" style="-fx-background-color: white; -fx-background-radius: 25;" text="get password" textFill="#188005" />
+      <Label fx:id="retpass" layoutX="5.0" layoutY="332.0" prefHeight="45.0" prefWidth="589.0" text="your password will be displayed here after getting right information" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
